@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ai-farmer-helper
+    name: AI_Helper_for_Farmers_Project
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "streamlit run Streamlit_app.py"
